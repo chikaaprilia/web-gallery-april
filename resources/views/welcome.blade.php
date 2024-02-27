@@ -51,8 +51,8 @@
     </div>
 
     {{-- Galeri kegiatan --}}
-    <div class="container mt-4 ">
-        <h2 class="text-center mb-4"><span class="text-dark">Galeri Kegiatan</span></h2>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4"><span class="text-primary">Galeri</span> Kegiatan</h2>
 
         @forelse ($posts as $post)
             <div class="card mb-3">
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6" style="border-right: 1px solid #ccc;">
-                    <h2 class="text-center text-light mb-4"><span class="text-light">Agenda Sekolah </span></h2>
+                    <h2 class="text-center text-light mb-4"><span class="text-light">Agenda </span>Sekolah</h2>
 
                     <ul class="list-group">
                         @forelse ($agendas as $agenda)
@@ -90,7 +90,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <h2 class="text-center text-light mb-4"><span class="text-light">Informasi Terkini</span></h2>
+                    <h2 class="text-center text-light mb-4"><span class="text-light">Informasi</span> Terkini</h2>
 
                     <div class="card">
                         <div class="card-body">
@@ -106,7 +106,7 @@
 
     <div class="container mt-4">
         <hr>
-        <h2 class="text-center mb-4"><span class="text-dark">Peta Sekolah</span></h2>
+        <h2 class="text-center mb-4"><span class="text-primary">Peta</span> Sekolah</h2>
 
         <div class="row">
             <div class="col-12 col-md-4">

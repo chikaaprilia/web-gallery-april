@@ -9,7 +9,7 @@
             <div class="navbar-brand">
                 <!-- Logo icon -->
                 <a href="/" class="mt-3 ms-3">
-                    <h2>Galery Sekolah</h2>
+                    <h2>SIGALAH</h2>
                 </a>
             </div>
             <!-- ============================================================== -->
@@ -30,8 +30,8 @@
                 <!-- ============================================================== -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="/assets/images/avataaars (3).png" alt="user" class="rounded-circle" width="40">
-                        <span class="ms-2 d-none d-lg-inline-block"><span>Hai,</span> <span class="text-dark">{{ Auth::user()->name }}</span> <i data-feather="chevron-down" class="svg-icon"></i></span>
+                        <img src="/assets/images/avataaars.svg" alt="user" class="rounded-circle" width="40">
+                        <span class="ms-2 d-none d-lg-inline-block"><span>Hello,</span> <span class="text-dark">{{ Auth::user()->name }}</span> <i data-feather="chevron-down" class="svg-icon"></i></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-right user-dd animated flipInY">
                         <a class="dropdown-item" href="/logout"><i data-feather="power" class="svg-icon me-2 ms-1"></i>
